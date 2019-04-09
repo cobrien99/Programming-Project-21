@@ -11,10 +11,7 @@ natural_language_understanding = NaturalLanguageUnderstandingV1(
 
 f = open('NLC csv training data1.2.csv')
 csv_f = csv.reader(f)
-#with open('output.csv', 'w') as f:
-#    thewriter = csv.writer(f)
-#
- #   thewriter.writerow(['Incident', 'Type of Location', 'Location Name'])
+
 with open('output.csv', 'w') as f:
     thewriter = csv.writer(f)
     for row in csv_f:
