@@ -6,7 +6,7 @@ The program has two parts:
   1: the part where it tests our image classifier
   2: the part where it tests our natural language classifeir
 
-  1:Image classifier
+  1:Image classifier \n
        The image classifier tests with the same 20 images all the time
        that way, we can look for performance increases over time
        These 20 images are contained in a zip file called test images
