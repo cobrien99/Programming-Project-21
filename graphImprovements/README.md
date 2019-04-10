@@ -12,8 +12,7 @@ The program has two parts:
        These 20 images are contained in a zip file called test images
        They consist of 5 images containing child labour (named "cl" then a number),
        5 images of sweatshop conditions (named "ss" then a number)
-       and 10 images with neither child labour nor sweatshops. (named "n" and then a number)
- 
+       and 10 images with neither child labour nor sweatshops. (named "n" and then a number)                                                                                     
        the program knows by the filename what the right answer is
        It then tests an image and writes the result line to a csv
        the result line consist of "date, filename, containsCL, containsSS, confidenceCL, confidenceSS"
@@ -26,7 +25,6 @@ The program has two parts:
        The program takes a random batch of 20 of those sentences and tests the model on those.
        I used a random batch of 20 sentences because it prevents overfitting and also because IBM only
        allows submissions of less then 30 sentences at once.
- 
        The program tests each sentence and records the result line
        the format is date, sentenceText, sentencelabels*10, labelConfidence*10
        because we are testing for ten tags there are ten labels and confidence scores
