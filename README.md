@@ -1,11 +1,13 @@
 # Programming-Project-21 
 
-                                                    USING AI FOR GOOD!
 NLU.py => source code for location extractor
 
 graphImprovements => source code for graphing program
 
 classifyInput => source code for quering model which will be used by lecturers
+
+
+                                                    USING AI FOR GOOD!
 
 
 Using IBM Watson technology to help combat human trafficking.
