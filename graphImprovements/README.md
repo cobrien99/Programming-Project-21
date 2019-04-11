@@ -32,3 +32,8 @@ The program has two parts:
   The program tests each sentence and records the result line
   the format is date, sentenceText, sentencelabels*10, labelConfidence*10
   because we are testing for ten tags there are ten labels and confidence scores
+
+  ## Graph
+  The graph and all the calculations are in the excel file called "graphs". Whenever the program has run you have to press 
+  "refresh all" to get the new data.
+  You can chnage the threshold figure (highlighted in green) from 0 to 1 and see the graphs update in real time. The threshold figure represents how confident the model has to be before it will say certain tags are found in the item.
